@@ -9,4 +9,5 @@ print(f'''Bonjour monsieur {nom_du_user}, comment
  allez-vous aujourd'hui?''')
 print('Système en attente de commandes')
 
-
+from skills import date_skill
+date_skill.afficher_heure()
