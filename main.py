@@ -1,7 +1,6 @@
-nom_du_butler = 'Alfred'
-version = 1.0
-
-print(f'système{nom_du_butler} , version{version}')
+from config.settings import Assistant_name
+from config.settings import version
+print(f'système {Assistant_name}, version {version}')
 print(f"initialisation du système en cours ...Prêt")
 
 nom_du_user = input('quel est votre nom ?: ')
